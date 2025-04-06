@@ -1,0 +1,85 @@
+/* Global Styles */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 1300px;
+    max-width: 150px;
+    width: auto;
+  }
+  
+  /* Container with the background image */
+  .container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://live.staticflickr.com/65535/54423994063_cae9db9318_k.jpg') no-repeat center center/cover;
+  }
+  
+  .imgFundo {
+    background: url('https://i.ibb.co/207nstkK/299522177-450056213806935-1172328289882952135-n.jpg') no-repeat center center/cover;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+     align-items: center;
+    border-radius: 8px;
+  }
+  
+  /* Content div for text and button */
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #ff1b7b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 8px;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: #1ABC9C;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  input {
+    border: 0px;
+    border-radius: 4px;
+  }
+  
+  input,select {
+    height: 25px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
