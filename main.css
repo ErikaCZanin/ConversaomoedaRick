@@ -19,7 +19,7 @@ body {
 
 /* Container with the background image */
 .container {
-  height: 92vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;

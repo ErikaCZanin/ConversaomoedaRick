@@ -17,6 +17,9 @@ header {
   .navbar {
     width: 60% !important;
   }
+.container {
+  height: 92vh !important;
+}
 
 }
 
