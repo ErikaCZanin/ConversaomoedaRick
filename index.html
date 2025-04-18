@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Jovo moeda Schmeckles</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="./btnGeral.css">
+  <title>Jovo moeda Schmeckles</title>
 </head>
 
 <body>
-    <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
-    <div class="container">
-      <div class="imgFundo">
+  <header>
+    <nav class="nav">
+      <button class="btnList"><span><i class="bi bi-list"></i></span></button>
+      <div class="navbar" id="navbarNav">
+        <h1>Jogo pessoa noturna</h1>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://jogos-imersao-alura-042025.vercel.app/">Jogos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/ErikaCZanin/ConversaomoedaRick">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/erikaczanin/">Linkedin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
+  <div class="container">
+    <div class="imgFundo">
       <iv class="content">
         <h2> Blips and Chitz!</h2>
         <p> Que tal converter esse valor para <strong>Blips and Chitz?</strong></p>
-  <div>
-    <label for="moedas">Moeda terrestre</label>
-  <select id="selectMoeda">
-    <option value="moedaReal">Real</option>
-    <option value="moedaDolar">Dolar</option>
-    <option value="moedaEuro">Euro</option>
-  </select>
-        <input type="text" id="valorDigitado" value="Valor terrestre">
+        <div>
+          <label for="moedas">Moeda terrestre</label>
+          <select id="selectMoeda">
+            <option value="moedaReal">Real</option>
+            <option value="moedaDolar">Dolar</option>
+            <option value="moedaEuro">Euro</option>
+          </select>
+          <input type="text" id="valorDigitado" value="Valor terrestre">
         </div>
-  <button onclick="pegarValor()">Converter</button>
-      </div>
+        <button onclick="pegarValor()">Converter</button>
     </div>
-      </div>
-    <footer>Alura - Imersão DEV - 2025</footer>
-  </body>  
-<script src="./main.js" ></script>
+  </div>
+  </div>
+  <footer>Alura - Imersão DEV - 2025</footer>
+</body>
+<script src="./main.js"></script>
+
 </html>
