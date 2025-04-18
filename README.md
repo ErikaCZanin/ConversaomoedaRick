@@ -10,7 +10,7 @@
 
 Inspirado no universo caótico de **Rick and Morty**, este mini jogo foi desenvolvido durante a **Imersão Dev** da Alura (abril de 2025) com o objetivo de praticar **JavaScript**, interagindo com elementos da página e explorando conceitos de lógica condicional e manipulação de dados. 
 
-<img align="right" alt="coding-gif" width="400" src="https://github.com/ErikaCZanin/jogoRick_Escolhaspersonagem/blob/main/download.png">
+<img align="right" alt="coding-gif" width="400" src="https://github.com/ErikaCZanin/ConversaomoedaRick/blob/main/imgvercel.png">
 
 ### 📌 Objetivos:  
 - 📤 **Entrada de dados via formulário**, permitindo ao usuário escolher a moeda e inserir o valor.  
