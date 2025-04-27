@@ -11,7 +11,7 @@ body {
 /* Logo Styles */
 .logo {
   position: absolute;
-  top: 20px;
+  top: 30px;
   right: 1300px;
   max-width: 150px;
   width: auto;
@@ -19,7 +19,7 @@ body {
 
 /* Container with the background image */
 .container {
-  height: 95vh;
+  height: 94vh;
   display: flex;
   justify-content: center;
   align-items: center;

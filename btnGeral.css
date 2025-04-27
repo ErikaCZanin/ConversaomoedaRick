@@ -21,6 +21,10 @@ header {
   height: 92vh !important;
 }
 
+#valorDigitado {
+  width: 100%;
+}
+
 }
 
 
@@ -50,7 +54,8 @@ header {
 }
 
 .nav {
-  margin-right: 38px;
+  margin-top: 18px;
+  margin-right: 98px;
   position: absolute;
   top: 2px;
   width: 250px;
