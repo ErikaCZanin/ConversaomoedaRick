@@ -29,6 +29,7 @@ header {
   top: 40px !important;
   left: 30% !important;
   transform: translateX(-50%);
+  max-width: 210px !important;
 }
 .container {
   padding: 0 8px;
