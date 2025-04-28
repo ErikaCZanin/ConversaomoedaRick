@@ -1,14 +1,13 @@
-/* Global Styles */
+
 body {
-  background-color: black;
+  background: url('https://live.staticflickr.com/65535/54423994063_cae9db9318_k.jpg') no-repeat center center/cover;
   margin: 0;
   padding: 0;
   font-family: "Oranienbaum", Arial, sans-serif;
   color: white;
-  position: relative;
+  height: 100vh;
 }
 
-/* Logo Styles */
 .logo {
   position: absolute;
   top: 30px;
@@ -17,13 +16,12 @@ body {
   width: auto;
 }
 
-/* Container with the background image */
+
 .container {
-  min-height: 94vh;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('https://live.staticflickr.com/65535/54423994063_cae9db9318_k.jpg') no-repeat center center/cover;
 }
 
 .imgFundo {
@@ -35,7 +33,6 @@ body {
   border-radius: 8px;
 }
 
-/* Content div for text and button */
 .content {
   display: flex;
   flex-direction: column;
@@ -69,8 +66,15 @@ button:hover {
 
 /* Footer Styles */
 footer {
+  display: flex;
   text-align: center;
-  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  position: absolute; 
+  height: 2.5rem; 
+  width: 100%; 
+  bottom: 0
 }
 
 input {
