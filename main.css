@@ -15,9 +15,10 @@ body {
 #valorDigitado {
   padding: 0 4px;
 }
+
 .logo {
   position: absolute;
-  bottom: 70px;
+  bottom: 670px;
   left: 80px;
   max-width: 150px;
   width: auto;
