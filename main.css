@@ -8,6 +8,9 @@ body {
   height: 100vh;
 }
 
+#valorDigitado {
+  padding: 0 4px;
+}
 .logo {
   position: absolute;
   top: 30px;

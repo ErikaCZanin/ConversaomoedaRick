@@ -27,6 +27,11 @@ header {
   padding: 0 8px;
 }
 
+.navbar {
+  padding: 0 50px;
+  width: auto !important;
+}
+
 }
 
 
@@ -40,7 +45,8 @@ header {
   border-bottom-right-radius: 18px;
   flex-direction: column;
   display: flex;
-  padding: 0 50px;
+  width: 100%;
+
   /* mantém a estrutura */
 }
 
