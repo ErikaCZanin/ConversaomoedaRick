@@ -18,8 +18,8 @@ body {
 
 .logo {
   position: absolute;
-  bottom: 670px;
-  left: 80px;
+  top: 30px;
+  left: 40px;
   max-width: 150px;
   width: auto;
 }

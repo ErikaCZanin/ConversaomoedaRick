@@ -15,7 +15,7 @@ header {
   .nav {
     display: flex;
     width: 100% !important;
-    margin: 0 !important;
+    margin: 78px 0 !important;
     justify-content: center;
     align-items: center;
     padding: 14px 0;
@@ -26,8 +26,8 @@ header {
 }
 
 .logo {
-  bottom: 60px !important;
-  left: 50% !important;
+  top: 40px !important;
+  left: 20% !important;
   transform: translateX(-50%);
 }
 .container {
