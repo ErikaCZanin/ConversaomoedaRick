@@ -30,7 +30,7 @@ document.querySelectorAll('.btnList').forEach(item => {
   item.addEventListener('click', function () {
     const navBar = document.querySelector('.navbar'); 
     const content = document.querySelector('.imgFundo');
-    const isSmallScreen = window.matchMedia('(max-width: 410px)').matches;
+    const isSmallScreen = window.matchMedia('(max-width: 768px)').matches;
 
     if (navBar) {
       // Aplica a transição no JavaScript
@@ -51,12 +51,15 @@ document.querySelectorAll('.btnList').forEach(item => {
         }
       } else {
         navBar.style.height = navBar.scrollHeight + 'px';
-        item.style.width = '100%';
-    
-        // Adiciona a margem se for tela pequena
-        if (isSmallScreen && content) {
-          content.style.marginTop = '180px';
+
+        // Ajusta a largura de acordo com o tamanho da tela
+        if (isSmallScreen) {
           item.style.width = '60%';
+          content.style.marginTop = navBar.scrollHeight + 'px';
+          body.style.height = '110%';
+          html.style.height = '110%';
+        } else {
+          item.style.width = '100%';
         }
       }
     }    

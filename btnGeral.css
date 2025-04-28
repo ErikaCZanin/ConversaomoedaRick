@@ -11,24 +11,37 @@ header {
 }
 
 
-@media (max-width:410px) {
+@media (max-width:768px) {
   .nav {
-    width: 100vw !important;
-    margin-right: 0 !important;
-    padding: 8px 0;
+    display: flex;
+    width: 100% !important;
+    margin: 0 !important;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0;
   }
-
 
 #valorDigitado {
   width: 100%;
 }
 
+.logo {
+  bottom: 40px;
+  left: 35% !important;
+}
 .container {
   padding: 0 8px;
 }
 
 .navbar {
   padding: 0 50px;
+  width: 40% !important;
+}
+
+.content {
+  margin: 0;
+  padding: 14px;
+  background-color: rgba(0, 0, 0, 0.716);
   width: auto !important;
 }
 

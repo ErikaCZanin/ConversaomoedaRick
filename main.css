@@ -1,11 +1,15 @@
 
+html, body {
+  height: 100%;
+}
+
 body {
-  background: url('https://live.staticflickr.com/65535/54423994063_cae9db9318_k.jpg') no-repeat center center/cover;
   margin: 0;
   padding: 0;
   font-family: "Oranienbaum", Arial, sans-serif;
   color: white;
-  height: 100vh;
+  position: relative;
+  background: url('https://live.staticflickr.com/65535/54423994063_cae9db9318_k.jpg') center center/cover;
 }
 
 #valorDigitado {
@@ -13,15 +17,16 @@ body {
 }
 .logo {
   position: absolute;
-  top: 30px;
-  right: 1300px;
+  bottom: 70px;
+  left: 80px;
   max-width: 150px;
   width: auto;
 }
 
 
+
 .container {
-  min-height: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
