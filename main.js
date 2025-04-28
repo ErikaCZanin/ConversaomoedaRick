@@ -31,19 +31,21 @@ document.querySelectorAll('.btnList').forEach(item => {
     const navBar = document.querySelector('.navbar'); 
     const content = document.querySelector('.imgFundo');
     const isSmallScreen = window.matchMedia('(max-width: 768px)').matches;
+    const body = document.querySelector('body');
+    const html = document.querySelector('html');
 
     if (navBar) {
       // Aplica a transição no JavaScript
-      if (content) {
-        content.style.transition = 'margin-top 0.5s ease';
-      }
-      if (item) {
-        item.style.transition = 'width 0.5s ease';
-      }
-    
+      content?.style.setProperty('transition', 'margin-top 0.5s ease');
+      body?.style.setProperty('transition', 'height 0.5s ease');
+      html?.style.setProperty('transition', 'height 0.5s ease');
+      item?.style.setProperty('transition', 'width 0.5s ease');
+
       if (navBar.style.height && navBar.style.height !== '0px') {
         navBar.style.height = '0px';
         item.style.width = '30%';
+        body.style.height = '100%';
+        html.style.height = '100%';
     
         // Remove a margem se for tela pequena
         if (isSmallScreen && content) {

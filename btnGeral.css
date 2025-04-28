@@ -27,7 +27,8 @@ header {
 
 .logo {
   bottom: 40px;
-  left: 35% !important;
+  left: 50% !important;
+  transform: translateX(-50%);
 }
 .container {
   padding: 0 8px;
