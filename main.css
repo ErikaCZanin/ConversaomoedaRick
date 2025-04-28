@@ -88,11 +88,3 @@ select {
   margin-bottom: 8px;
   border-radius: 4px;
 }
-
-@media (max-width: 390px) {
-
-  .container {
-    padding: 8px;
-  }
-
-}
