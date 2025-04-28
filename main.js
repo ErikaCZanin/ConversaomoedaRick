@@ -57,7 +57,7 @@ document.querySelectorAll('.btnList').forEach(item => {
         // Ajusta a largura de acordo com o tamanho da tela
         if (isSmallScreen) {
           item.style.width = '60%';
-          content.style.marginTop =  '180px';
+          content.style.marginTop =  '310px';
           body.style.height = '110%';
           html.style.height = '110%';
         } else {
