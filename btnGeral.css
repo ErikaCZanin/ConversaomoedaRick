@@ -27,7 +27,7 @@ header {
 
 .logo {
   top: 40px !important;
-  left: 30% !important;
+  left: 50% !important;
   transform: translateX(-50%);
   max-width: 210px !important;
 }
