@@ -26,4 +26,4 @@ Inspirado no universo caótico de **Rick and Morty**, este mini jogo foi desenvo
 ### 💫 Deploy  
 O projeto está disponível online! Confira no link abaixo:  
 
-[![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel&logoColor=white)](https://jogo-rick-escolhaspersonagem.vercel.app)  
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel&logoColor=white)](https://conversaomoeda-rick.vercel.app/)  
